@@ -1,12 +1,12 @@
-# GeoJSON Purge
+# GeoJSON Purge 🌍🧹
 
-GeoJSON Purge is to clean GeoJSON files. Developed for the internal use of [Platvorm](https://platvorm.ee/).
+GeoJSON Purge is to clean GeoJSON files. Developed for the internal use of studio [Platvorm](https://platvorm.ee/).
 
 ## Overview
 
 GeoJSON Purge is a command-line Python tool that:
 
-* Merges layers in a GeoJSON file
+* Merges feature geometries by layer: Polygons into MultiPolygons, LineStrings into MultiLineString, and Points into MultiPoints.
 * Removes selected properties
 * Removes Z-coordinates
 * Truncates coordinate precision
